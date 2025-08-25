@@ -9,7 +9,7 @@ const app = express();
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 app.use(cors({
-  origin: "https://Karmoozdeli.com",
+  origin: "https://karmoozdeli.com",
   methods: ["GET", "POST", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Accept"]
 }));
